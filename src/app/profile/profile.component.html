@@ -1,0 +1,6 @@
+<!-- src/app/profile/profile.component.html -->
+<div *ngIf="profile">
+  <img [src]="profile.photoUrl" alt="{{ profile.name }}" />
+  <h2>{{ profile.name }}</h2>
+  <p>{{ profile.description }}</p>
+</div>

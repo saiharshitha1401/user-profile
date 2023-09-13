@@ -1,0 +1,5 @@
+<div *ngFor="let profile of profile">
+  <p>Name: {{ profile.name }}</p>
+  <p>Description: {{ profile.description }}</p>
+  <button (click)="showSummary(profile.id)">Summary</button>
+</div>
